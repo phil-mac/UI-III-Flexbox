@@ -95,19 +95,75 @@ nav a{
 	padding: 25px;
 }
 
+.main-header{
+	padding: 120px 0 80px 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/* border: 1px solid grey; */
+
+}
+
+.title-div{
+	display:flex;
+	width:450px;
+	height:450px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid grey; */
+}
+
+.button{
+	border: 1px solid black;
+	padding: 6px 30px;
+}
+
 h1{
 	text-align: center;
-	font-size: 70px;
+	font-size: 80px;
 }
+
+.circle-pic{
+	/* border: 1px solid grey; */
+	width:450px;
+	height:450px;
+}
+
+.circle-pic img{
+	width: 450px;
+	height: 450px;
+}
+
 
 .top-content{
 	border-top: 1px solid black;
-	padding: 20px 0 20px 0;
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-content div{
+	width: 49%;
+}
+
+.middle-img{
+	width: 100%;
 }
 
 .bottom-content{
 	border-bottom: 1px solid black;
-	padding: 20px 0 20px 0;
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content div{
+	width: 33%;
+}
+
+.contact{
+	margin: 30px 0;
 }
 
 footer p{
@@ -115,5 +171,6 @@ footer p{
 }
 
 .number{
-	padding: 10px 0;
+	padding: 15px 0;
+	
 }
